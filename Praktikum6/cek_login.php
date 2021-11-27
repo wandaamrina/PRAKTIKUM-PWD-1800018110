@@ -20,6 +20,7 @@ if ($_POST['captcha_code'] == $_SESSION['captcha_code']) {
         echo "User berhasil login! <br>";
         echo "Id user : " . $_SESSION['id_user'] .  "<br>";
         echo "Nama : " . $_SESSION['nama'] . "<br>";
+        echo "<a href='form_user.php'>Form User</a>";
         echo "<a href='logout.php'>Log out</a>";
     } else {
         // jika user tidak ada atau username/password salah tidak sesuai maka notif berikut

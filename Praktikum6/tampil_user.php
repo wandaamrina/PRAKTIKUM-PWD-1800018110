@@ -27,6 +27,7 @@ echo "<h2>User</h2>
         $no++;
     }
 echo "</table>";
+echo "<a href='logout.php'>Log out</a>";
 } else {
  echo "0 results";
 }
